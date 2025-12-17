@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上野山さん×ツクルヨ プロジェクト</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            color: #333;
+            margin: 0;
+            line-height: 1.6;
+        }
+        /* Color Palette: Navy (#001f3f) & Yellow (#FFD700) */
+        .bg-navy { background-color: #001f3f; color: white; }
+        .text-yellow { color: #FFD700; }
+        .bg-light { background-color: #f4f4f4; }
+        
+        /* Layout Utilities */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .text-center { text-align: center; }
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #FFD700;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        
+        /* Header / Hero */
+        header {
+            padding: 100px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            letter-spacing: 0.1em;
+        }
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        /* Features */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-top: 5px solid #001f3f;
+        }
+        .feature-card h3 { color: #001f3f; margin-top: 0; }
+
+        /* Flow */
+        .flow-step {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 5px solid #FFD700;
+        }
+
+        /* CTA */
+        .cta-button {
+            display: inline-block;
+            background-color: #FFD700;
+            color: #001f3f;
+            padding: 20px 60px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: background 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+        }
+        .cta-button:hover {
+            background-color: #e6c200;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-navy">
+        <div class="container">
+            <p class="text-yellow">Concept</p>
+            <h1>子供から憧れられる<br>大人になろう。</h1>
+            <p>ワクワクする毎日を、ここから。</p>
+        </div>
+    </header>
+
+    <section class="container text-center">
+        <h2 class="section-title">Mission</h2>
+        <p>「週5で我慢して働く」そんな常識を払拭したい。</p>
+        <p>自分の可能性を広げ、楽しくいきいきとした大人を増やすことが、<br>子供たちの未来への希望に繋がります。</p>
+    </section>
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">こんな悩みはありませんか？</h2>
+            </div>
+            <div style="max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px;">
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 15px;">✅ 転職したけれど、思ったような成果が出ない</li>
+                    <li style="margin-bottom: 15px;">✅ 上司との関係に悩み、閉塞感を感じている</li>
+                    <li style="margin-bottom: 15px;">✅ 「自分には選択肢が少ない」と感じている</li>
+                    <li>✅ もっと世界を広げたいが、きっかけがない</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="text-center">
+            <h2 class="section-title">Main Contents</h2>
+            <p style="margin-bottom: 40px;">本来の自分を取り戻し、理想を実現するためのプログラム</p>
+        </div>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>01. 自己理解ワーク</h3>
+                <p>自分に矢印を向け、1年後の理想の自分を描きます。埋もれていた可能性と選択肢を再発見します。</p>
+            </div>
+            <div class="feature-card">
+                <h3>02. メンター制度</h3>
+                <p>無料面談を通じてあなたに合うメンターを選定。迷った時に道を示してくれる存在と共に進めます。</p>
+            </div>
+            <div class="feature-card">
+                <h3>03. 動画アーカイブ</h3>
+                <p>いつでも学べる動画コンテンツで、知識と視点をアップデート。実践的なインプットを提供します。</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-navy">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title text-yellow">ご利用の流れ</h2>
+            </div>
+            <div style="max-width: 600px; margin: 0 auto; color: #333;">
+                <div class="flow-step">
+                    <strong>STEP 1. 公式LINE登録</strong>
+                    <p style="margin: 5px 0 0;">まずは公式LINEへ登録。限定情報や案内をお届けします。</p>
+                </div>
+                <div class="flow-step">
+                    <strong>STEP 2. 申込・面談</strong>
+                    <p style="margin: 5px 0 0;">Webページから申し込み。メンターとのマッチング面談を実施。</p>
+                </div>
+                <div class="flow-step">
+                    <strong>STEP 3. Discordコミュニティ参加</strong>
+                    <p style="margin: 5px 0 0;">仲間と共に学び、アウトプットする環境へ招待します。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container text-center" style="padding: 80px 20px;">
+        <h2 style="font-size: 2rem; margin-bottom: 10px;">あなたの可能性を、ここから広げよう</h2>
+        <p style="margin-bottom: 40px;">まずは公式LINEで詳細をチェック</p>
+        <a href="#" class="cta-button">公式LINEに登録する</a>
+    </section>
+
+    <footer class="bg-navy text-center" style="padding: 20px; font-size: 0.8rem; color: #aaa;">
+        <p>&copy; 上野山さん×ツクルヨ Project. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
